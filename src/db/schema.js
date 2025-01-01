@@ -7,7 +7,6 @@ export const recipes =  pgTable("recipes",{
     name : varchar("name",{length:50}).notNull().unique(),
     description: text("description").notNull(),
     subname: varchar("subname",{length:50}),
-    test: varchar("test",{length:50}),
     createdAt: timestamp("created_at").default(sql`CURRENT_TIMESTAMP`),
     updatedAt : timestamp("updated_at").default(sql`CURRENT_TIMESTAMP`)
 
