@@ -15,6 +15,13 @@
       "when": 1735492906946,
       "tag": "0001_charming_absorbing_man",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1735919542068,
+      "tag": "0002_lively_pride",
+      "breakpoints": true
     }
   ]
 }
